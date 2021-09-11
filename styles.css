@@ -1,50 +1,80 @@
-.menu {
-  /* add correct code to place the menu correctly.*/
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: black;
-  font-size: 30px;
-  font-family: sans-serif;
-  font-weight: 400;
-  color: white;
-  
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
 }
-body {
-  background-color: whitesmoke;
-  align-content: center;
-}
-
-.grid {
-  /* add correct code to place the grid elements 
-  one beside the other equally.   */
-  display: flex;
-  flex-wrap: wrap;
-  font-family: sans-serif;
-  align-content: space-evenly;
-  align-items: center;
-  background-color: whitesmoke;
-
-}
-
-.grid img {
-    position:relative;
-    top:50%;
-    left:25%;
+body{
+    margin: 0px;
+    background-color:#f7f2f2;
     
- 
 }
-.languages {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  border-radius: 20px;
-  margin: 20px;
-  align-content: space-evenly;
-  align-items: center;
-  align-content: center;
-  width: 310px;
-  height: 500px;
-  font-family: serif;
-  font-style: italic;
+a{
+    text-decoration :none
+}
+a:link{
+    color:#ffffff;
+}
+
+/*a:old*/
+/*a:clicked*/
+/*a:seen{*/
+a:visited{
+    color: #ffffff;
+}
+
+.bodyimg{
+    position: relative;
+}
+.bodyimg p{
+    color:#f7f2f2;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.bodyimg h3{
+    color:#f7f2f2;
+    font-family: fantasy;
+    font-size: 30px;
+    width: 1000px;
+    position: absolute;
+    top:40%;
+    left:70%;
+    transform: translate(-40%, -40%);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+    
+}
+
+/* .origami:hover{ */
+/*.origami : mouseover{*/
+/*.origami:link{*/
+.origami:hover{
+
+    transform: scale(1.2);
 }
